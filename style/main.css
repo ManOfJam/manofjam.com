@@ -1,0 +1,14 @@
+body {
+	margin: 0 auto;
+	max-width: 680px;
+	width: 100%;
+}
+
+#masthead {
+	margin: 0;
+}
+
+#masthead img {
+	display: block;
+	width: 100%;
+}
