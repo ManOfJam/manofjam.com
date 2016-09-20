@@ -8,6 +8,12 @@ body {
 	width: 100%;
 }
 
+@media (max-width: 590px) {
+	body {
+		margin-top: 8.5vw;
+	}
+}
+
 main {
 	width: 670px;
 }
