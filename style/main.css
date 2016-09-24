@@ -19,8 +19,8 @@ body {
 	}
 }
 
-main {
-	width: 670px;
+main, aside {
+	padding: 0 10px;
 }
 
 article {
@@ -68,7 +68,11 @@ a:hover {
 
 #site-content {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 0 10px;
+}
+
+@media (max-width: 590px) {
+	#site-content {
+		flex-direction: column;
+	}
 }
