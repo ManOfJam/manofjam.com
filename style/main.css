@@ -1,5 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Raleway";
 
+::selection {
+	background-color: #ff394c;
+	color: #fff;
+}
+
 body {
 	color: #6c6c6c;
 	font-family: "Raleway", sans-serif;

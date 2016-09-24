@@ -1,4 +1,4 @@
-<!-- Hand typed by Samuel Taylor in Sublime Text with referral to developer.mozilla.org/en/docs/Web/SVG/Tutorial/Paths -->
+<!-- Hand typed by Samuel Taylor in Sublime Text with referral to https://developer.mozilla.org/en/docs/Web/SVG/Tutorial/Paths -->
 <svg xmlns="http://www.w3.org/2000/svg" width="590" height="100">
 	<path fill="#ff394c" d="M 0 0 h 100 v 100 h -100 v -100 m 27.5 13.5 v 8 h 6 v 4 q -6 0 -6 12 v 37 q 0 12 12 12 h 21 q 12 0 12 -12 v -37 q 0 -12 -6 -12 v -4 h 6 v -8 h -45 m 6 46 h 33 v 15 q 0 6 -6 6 h -21 q -6 0 -6 -6 v -15 Z"/>
 	<g>
