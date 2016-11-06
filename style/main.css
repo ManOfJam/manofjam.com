@@ -64,7 +64,10 @@ a:hover {
 }
 
 #mobile-logo {
+	box-sizing: border-box;
 	display: none;
+	padding: 10px;
+	padding-bottom: 0;
 }
 
 #site-content {
