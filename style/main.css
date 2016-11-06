@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Raleway";
 
 ::selection {
-	background-color: #ff394c;
+	background-color: #ff4d4d;
 	color: #fff;
 }
 
@@ -11,12 +11,6 @@ body {
 	margin: 50px auto 0;
 	max-width: 800px;
 	width: 100%;
-}
-
-@media (max-width: 426px) {
-	body {
-		margin-top: 0;
-	}
 }
 
 main, aside {
@@ -47,7 +41,7 @@ a {
 }
 
 a:hover {
-	color: #ff394c;
+	color: #ff4d4d;
 }
 
 #site-header {
@@ -62,8 +56,15 @@ a:hover {
 }
 
 #masthead img {
-	display: block;
 	width: 100%;
+}
+
+#logo {
+	display: block;
+}
+
+#mobile-logo {
+	display: none;
 }
 
 #site-content {
@@ -74,5 +75,19 @@ a:hover {
 @media (max-width: 590px) {
 	#site-content {
 		flex-direction: column;
+	}
+}
+
+@media (max-width: 426px) {
+	body {
+		margin-top: 0;
+	}
+
+	#logo {
+		display: none;
+	}
+
+	#mobile-logo {
+		display: block;
 	}
 }
