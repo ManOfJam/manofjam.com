@@ -13,6 +13,12 @@ body {
 	width: 100%;
 }
 
+@media (max-width: 426px) {
+	body {
+		margin-top: 0;
+	}
+}
+
 main, aside {
 	padding: 0 10px;
 }
@@ -55,19 +61,9 @@ a:hover {
 	width: fit-content;
 }
 
-#masthead img {
-	width: 100%;
-}
-
-#logo {
+#site-logo img {
 	display: block;
-}
-
-#mobile-logo {
-	box-sizing: border-box;
-	display: none;
-	padding: 10px;
-	padding-bottom: 0;
+	width: 100%;
 }
 
 #site-content {
@@ -78,19 +74,5 @@ a:hover {
 @media (max-width: 590px) {
 	#site-content {
 		flex-direction: column;
-	}
-}
-
-@media (max-width: 426px) {
-	body {
-		margin-top: 0;
-	}
-
-	#logo {
-		display: none;
-	}
-
-	#mobile-logo {
-		display: block;
 	}
 }

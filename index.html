@@ -10,8 +10,10 @@
 		<header id="site-header">
 			<h1 id="masthead">
 				<a href="/">
-					<img src="img/logo.svg" id="logo">
-					<img src="img/vertical-logo.svg" id="mobile-logo">
+					<picture id="site-logo">
+						<source srcset="img/vertical-logo.svg" media="(max-width: 426px)">
+						<img src="img/logo.svg">
+					</picture>
 				</a>
 			</h1>
 		</header>
