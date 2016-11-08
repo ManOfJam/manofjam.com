@@ -5,12 +5,16 @@
 	color: #fff;
 }
 
+::-moz-selection {
+	background-color: #ff4d4d;
+	color: #fff;
+}
+
 body {
 	color: #6c6c6c;
 	font-family: "Raleway", sans-serif;
 	margin: 50px auto 0;
 	max-width: 800px;
-	width: 100%;
 }
 
 @media (max-width: 426px) {
@@ -58,12 +62,11 @@ a:hover {
 
 #masthead {
 	margin: 0;
-	width: fit-content;
 }
 
 #site-logo img {
 	display: block;
-	width: 100%;
+	max-width: 100%;
 }
 
 #site-content {
