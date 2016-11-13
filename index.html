@@ -7,16 +7,14 @@
 		<link rel="stylesheet" type="text/css" href="style/main.css">
 	</head>
 	<body>
-		<header id="site-header">
-			<h1 id="masthead">
-				<picture id="site-logo">
-					<source srcset="img/vertical-logo.svg" media="(max-width: 426px)">
-					<img src="img/logo.svg">
-				</picture>
-			</h1>
-		</header>
-		<section id="site-content">
-			<main>
+		<h1 id="masthead">
+			<picture>
+				<source srcset="img/vertical-logo.svg" media="(max-width: 426px)">
+				<img src="img/logo.svg" id="logo">
+			</picture>
+		</h1>
+		<section class="row">
+			<main class="column nine">
 				<article>
 					<h2>The Man</h2>
 					<p>A front-end developer with over a years' experience in web design and development. Currently a student in higher education working towards a diploma, with aims to advance into a career of full-stack, cross-platform development.</p>
@@ -30,8 +28,8 @@
 					</ul>
 				</article>
 			</main>
-			<aside>
-				<h2>Social</h2>
+			<aside class="column one">
+				<h2>Follow</h2>
 				<ul>
 					<li>
 						<a href="https://github.com/ManOfJam">GitHub</a>
