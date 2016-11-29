@@ -35,6 +35,8 @@ body {
 .col {
 	margin-right: 2em;
 	min-width: min-content;
+	min-width: -moz-min-content;
+	min-width: -webkit-min-content;
 }
 
 .col:last-child {
