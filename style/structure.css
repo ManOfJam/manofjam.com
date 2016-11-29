@@ -61,7 +61,6 @@ body {
 	.col {
 		margin-bottom: 3.125rem;
 		margin-right: 0;
-		width: 100%;
 	}
 
 	.col:last-child {
